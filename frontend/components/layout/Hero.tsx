@@ -69,7 +69,7 @@ export default function Hero({ userName = 'User', pending = 0, onPrimaryAction }
             </svg>
 
             <div className="mt-3">
-              <h4 className="text-lg font-black">TaskFlow Snapshot</h4>
+              <h4 className="text-lg font-black">TaskFlow Overview</h4>
               <p className="text-sm opacity-70">Trends, completion velocity, and quick actions — condensed into one glance.</p>
             </div>
           </div>
