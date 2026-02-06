@@ -1,4 +1,4 @@
-# Todo App - Phase II (Frontend)
+# Todo App (Phase II) 
 
 A professional-grade, modern Todo application built with **Next.js 16+, TypeScript, and Tailwind CSS**. This frontend delivers a polished, premium user experience inspired by apps like **Todoist**, **Notion**, and **Linear**.
 
@@ -38,35 +38,33 @@ Our focus is on delivering a **premium user experience**:
 ### Installation
 
 1. Clone the repository  
-2. Navigate to the frontend folder  
-
-```bash
+2. Navigate to the frontend folder
+   ```bash
 cd frontend
 npm install
-Running the Development Server
-npm run dev
-The app will be available at http://localhost:3000.
 
-Environment Variables
+### Running the Development Server
+- npm run dev
+- The app will be available at http://localhost:3000
+
+### Environment Variables
+
 Create a .env.local file in the frontend directory:
 
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 NEXT_PUBLIC_BETTER_AUTH_URL=http://localhost:8000
 BETTER_AUTH_SECRET=your-secret-key
-Why This UI Feels Premium
+
+### Why This UI Feels Premium
 Visual Hierarchy: Clear typography and spacing create intuitive layouts
-
 Micro-interactions: Every button, toggle, and modal feels interactive
-
 Glassmorphism Effects: Modern frosted glass elements add depth and sophistication
-
 Responsive Design: Seamless experience across all devices
-
 Loading States: Thoughtful skeleton screens prevent janky transitions
-
 Accessibility: Focus rings, ARIA labels, and semantic HTML ensure inclusivity
 
-Tech Stack
+### Tech Stack
+
 Framework: Next.js 16+ (App Router)
 
 Language: TypeScript
@@ -83,7 +81,8 @@ Data Fetching: SWR
 
 Authentication: Better Auth with JWT
 
-Architecture
+### Architecture
+
 UI Components: Reusable components in components/ui/
 
 Feature Components: Auth and Todo features in respective directories
@@ -94,7 +93,8 @@ Types & Validation: Zod schemas for strong typing
 
 API Layer: Centralized API client with JWT support
 
-Available Scripts
+### Available Scripts
+
 npm run dev — Start development server
 
 npm run build — Build production bundle
@@ -103,8 +103,11 @@ npm run start — Start production server
 
 npm run lint — Run linter
 
-Contributing
+### Contributing
+
 This project follows a spec-first development approach. All features are fully specified before implementation. Contributions are welcome as long as they follow the project’s architecture and coding standards.
 
-Enjoy building and using this premium Todo app!
+Enjoy building and using this premium Todo app🚀⚡😊!
 
+
+`
