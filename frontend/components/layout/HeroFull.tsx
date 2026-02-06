@@ -22,30 +22,30 @@ export default function HeroFull() {
       >
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-black tracking-widest uppercase mb-6 animate-glow">
           <Sparkles className="w-4 h-4" />
-          New — Landing Experience
+          “Productivity — Evolved”
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] text-foreground mb-6">
-          A Todo Experience
+        <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-foreground mb-6">
+            A Todo App
           <br />
-          Like You've Never Seen.
+          That Actually Works.
         </h1>
 
         <p className="text-xl md:text-2xl opacity-80 body max-w-3xl mx-auto mb-10">
-          A fresh take on productivity: glass surfaces, kinetic micro-interactions,
-          and delightful motion—crafted to make planning feel aspirational.
+          A new way to master your day: fluid motion, intuitive design, 
+          and interactions that make planning feel effortless.
         </p>
 
         <div className="flex items-center justify-center gap-4">
           <Link href="/auth/sign-up">
             <Button variant="primary" size="lg" className="h-16 px-10 rounded-2xl neon">
-              Get Started
+           Let’s Go
             </Button>
           </Link>
 
           <Link href="/dashboard">
             <Button variant="ghost" size="lg" className="h-16 px-8 rounded-2xl">
-              Explore Dashboard <ArrowRight className="ml-2 w-5 h-5" />
+             Launch Dashboard <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>
         </div>
