@@ -32,7 +32,7 @@ export default function Header() {
                 <CheckCircle2 className="w-6 h-6" strokeWidth={3} />
               </div>
               <h1 className="text-2xl font-black tracking-tighter text-foreground leading-none">
-                Start Your Flow <span className="text-primary italic">Elite</span>
+                TaskFlow <span className="text-primary italic">Pro</span>
               </h1>
             </Link>
 
